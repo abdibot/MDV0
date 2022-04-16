@@ -28,7 +28,7 @@
           jpegThumbnail: await getBuffer(ppuser) 
          }, 
          buttons: button, 
-         footer: 'T-XM_Multi~Device', mentions: [num] })
+         footer: 'HELLO BOT_Multi~Device', mentions: [num] })
          } 
         else 
         if (update.action == 'remove') {
@@ -47,7 +47,7 @@
            location: { jpegThumbnail: await getBuffer(ppuser) 
           }, 
            buttons: button, 
-           footer: 'T-XM_Multi~Device', 
+           footer: 'HELLO BOT_Multi~Device', 
            mentions: [num] 
              }
              )
