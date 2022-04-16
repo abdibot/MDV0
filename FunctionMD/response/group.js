@@ -16,19 +16,19 @@
              { 
               buttonId: `ahsudahlah`, 
               buttonText: { 
-               displayText: `WelcomeðŸ‘‹` 
+               displayText: `Welcome👋` 
                }, type: 1 
               }
              ]
         sock.sendMessage(
          update.id, 
          { 
-         caption: `*HALLO KAK @${num.split("@")[0]} SELAMAT DATANG DI GRUP ${metadata.subject}* \n\nJANGAN LUPA PATUHI RULES GRUP MAUPUN GRUP KECIL TETAP JAGA TINGKAH KAMU YAK HARGAI\nTOLONG HARGAI GRUP INI OK ASSALAMUALAIKUM*`, 
+         caption: `*Hello @${num.split("@")[0]} Welcome to ${metadata.subject}* \n\nDon't forget to get acquainted with the admin here\nfan don't forget to obey the rules in this group*`, 
          location: { 
           jpegThumbnail: await getBuffer(ppuser) 
          }, 
          buttons: button, 
-         footer: 'HELLO BOT_Multi~Device', mentions: [num] })
+         footer: 'T-XM_Multi~Device', mentions: [num] })
          } 
         else 
         if (update.action == 'remove') {
@@ -36,18 +36,18 @@
              { 
               buttonId: `ahsudahlah`, 
               buttonText: { 
-               displayText: `ByeðŸ‘‹` 
+               displayText: `Bye👋` 
                }, type: 1 
               }
              ]
         sock.sendMessage(
            update.id, 
           { 
-           caption: `*@${num.split("@")[0]} SELAMAT TINGGAL DARI GRUP ${metadata.subject}*\NBALIK LAGI YAH DAN JANGAN DI TIRU MEMBER LAIN OK, ASSALAMUALAIKUM`, 
+           caption: `*@${num.split("@")[0]} leave the group ${metadata.subject}*\nWhy did he come out huh?, ummm...`, 
            location: { jpegThumbnail: await getBuffer(ppuser) 
           }, 
            buttons: button, 
-           footer: 'HELLO BOT_Multi~Device', 
+           footer: 'T-XM_Multi~Device', 
            mentions: [num] 
              }
              )
